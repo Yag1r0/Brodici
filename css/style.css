@@ -1,0 +1,114 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+
+    background-color: black;
+    font-family: 'Della Respira', serif;
+   
+}
+
+#board{
+
+    background: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 638px;
+    height: 638px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+
+}
+
+
+.spot{
+
+  
+    height: 90px;
+    width: 90px;
+    border:1px solid black;
+}
+
+#messageArea{
+    margin: 7px;
+    padding: 7px;
+    color: white;
+}
+
+form{
+
+    background-color: #f1f1f1f1;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 7px;
+}
+
+.hit{
+    
+    height: 90px;
+    width: 90px;
+    border:1px solid black;
+    background: url("../img/ship.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.miss{
+    
+    height: 90px;
+    width: 90px;
+    border:1px solid black;
+    background: url("../img/miss.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#guessInput{
+
+    padding: 3px;
+}
+
+#boardnNumbers{
+    text-align: center;
+    display: flex;
+}
+
+.num{
+
+    width: 90px;
+    height: 90px;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    padding-right: 0px;
+    cursor: default;
+}
+
+#numbers2{
+    text-align: center;
+    display: flex;
+
+}
+
+#numbers2 .num{
+
+    padding-top: 0px;
+    padding-right: 20px;
+}
+#mesenges{
+
+    display: flex;
+}
